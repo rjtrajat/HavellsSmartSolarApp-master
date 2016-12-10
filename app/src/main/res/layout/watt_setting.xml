@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15sp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:paddingBottom="20sp"
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"
+            android:onClick="cancelwatt"
+            >
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:onClick="cancelwatt"
+                android:id="@+id/cancel_watt_id"
+
+                android:text="Cancel"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentRight="false"
+            android:layout_marginLeft="150sp"
+            android:layout_centerHorizontal="true">
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="TIMER"-->
+
+                <!--android:textColor="#ffffff"-->
+                <!--android:textSize="12sp" />-->
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10sp"
+            android:onClick="SetWatt"
+            android:paddingBottom="20sp"
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"
+            android:layout_alignParentRight="true">
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:id="@+id/setwatt_id"
+                android:onClick="SetWatt"
+                android:text="Set Watt"/>
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hour_circle"
+        android:id="@+id/hour_circle_id"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp">
+
+
+
+
+
+
+
+        <NumberPicker
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:id="@+id/watt_picker"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_marginLeft="50sp"
+            android:layout_centerInParent="true">
+
+        </NumberPicker>
+        <!--<NumberPicker-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:id="@+id/Min_picker"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginRight="50sp">-->
+
+        <!--</NumberPicker>-->
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25sp"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+
+            android:text="Set Manually"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="50sp" />
+        <EditText
+            android:layout_width="170sp"
+            android:backgroundTint="@android:color/white"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            android:id="@+id/SetWatt_manually_id"
+            android:textColor="#ffffff"
+            android:maxLength="4"
+            android:singleLine="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50sp" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppThemeNoBar" parent="Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AppThemeBar" parent="Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">false</item>
+    </style>
+    <style name="splashScreenTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <!--<style name="Theme.MyTheme" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen" >-->
+    <!--<item name="android:textColorPrimary">#FFFFFF</item>-->
+    <!--</style>-->
+
+    <style name = "npColour" >
+        <item name = "android:textColor">#FFFFFF</item>
+    </style>
+</resources>

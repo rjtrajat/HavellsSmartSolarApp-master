@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HavellSolarApp</string>
+    <string name="forgotPasswordRegister"><u>Forgot Password?</u></string>
+    <string name="changePasswordRegister"><u>Change Password</u></string>
+    <string name="operatorRegister"><u><b>OPERATOR</b></u></string>
+    <string name="adminRegister"><u><b>ADMIN</b></u></string>
+    <string name="title_activity_maps">Map</string>
+</resources>
